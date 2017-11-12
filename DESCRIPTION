@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.4.1
+Version: 0.4.2
 Authors@R: c(person("Alicia", "Schep", email = "aschep@gmail.com",
                   role = c("aut", "cre")),
               person("Sarah","Kummerfeld", email = "kummerfeld.sarah@gene.com",
@@ -58,7 +58,7 @@ Collate: 'AllClasses.R' 'AllGenerics.R' 'annotations.R' 'axes.R'
         'iheatmap.R' 'iheatmapr.R' 'layout.R' 'shiny.R' 'shiny_test.R'
         'signal.R' 'subplot.R' 'summary.R' 'to_widget.R' 'utils.R'
 NeedsCompilation: no
-Packaged: 2017-10-13 18:44:30 UTC; schepa
+Packaged: 2017-11-12 01:41:26 UTC; alicia
 Author: Alicia Schep [aut, cre],
   Sarah Kummerfeld [aut],
   Genentech [cph],
@@ -80,4 +80,4 @@ Author: Alicia Schep [aut, cre],
   Plotly [cph] (plotly.js library)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-10-14 14:26:24 UTC
+Date/Publication: 2017-11-12 04:19:05 UTC

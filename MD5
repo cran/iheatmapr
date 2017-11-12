@@ -1,7 +1,7 @@
-eb6ae8bfd265679a4eedb3d56b2a6c19 *DESCRIPTION
+bf44a2aa71bc44d76ad8db965b9aefe5 *DESCRIPTION
 043e320f94b0f75300b3730f71f07dd4 *LICENSE
 2c9066862a5c277340299c21ee0af9bb *NAMESPACE
-03723c2955a3d489a1345b396586d532 *NEWS.md
+43280ae3632b8467a964322de17bb674 *NEWS.md
 10966f0b74ac7cb809f02ffd17d1dae0 *R/AllClasses.R
 ba6ee4654c4cff64e988bcead587b2a5 *R/AllGenerics.R
 a9cb58d67a08f801fdc95e7e3bf60f6c *R/annotations.R
@@ -32,7 +32,7 @@ a9cfc71aeb7aa66f1576fa2be6e077f8 *R/main_heatmap.R
 378ab0a79bf046781e78042747f95b70 *data/measles.rda
 3e29fe8b7aeeedd4c269f37abc981afc *inst/CITATION
 9992c0ed185c19aca0f537e1f82a2598 *inst/doc/iheatmapr-minimal.Rmd
-de9adc4147a87f516d5c3e1be4cff250 *inst/doc/iheatmapr-minimal.html
+4dc7f0dec2cd876201fd6410e5840dcf *inst/doc/iheatmapr-minimal.html
 dbd046e9c97721139166f9dc4bbfed0d *inst/htmlwidgets/iheatmapr.js
 ffcc3520e37d4fc2a1c2e89b0de3f67a *inst/htmlwidgets/iheatmapr.yaml
 b00254ac7ddba335b1d581f7a5b6b74e *inst/htmlwidgets/lib/plotlyjs/LICENSE.txt
@@ -112,7 +112,7 @@ a918e25dcd819b0897562b8a34088e7f *man/knit_print.Iheatmap.Rd
 55e884c10edceaf85a3739c5d394fdc5 *man/test_iheatmapr_event.Rd
 e6a2506da3078878bf29a5253bc0e194 *man/to_widget.Rd
 5b27cfcba358dfc8c85e8ca25729e6db *tests/testthat.R
-ed62c928df294f20004e70d3846f5e2f *tests/testthat/helper_expectation.R
+c7c281ceff7ddbab2d5489de2a0b512d *tests/testthat/helper_expectation.R
 8ae1351186a5df8bb50a8426807ea01f *tests/testthat/helper_objects.R
 b57d043f8e9213df6bf1ee1376536ffb *tests/testthat/reference/col_barplot_horizontal.rds
 93654a6562dc62e801eba5fbfea7c1f5 *tests/testthat/reference/col_barplot_vertical.rds
@@ -199,5 +199,4 @@ eeec8e46780ca2344bd685b063b18b09 *tests/testthat/test_groups.R
 431403f26b90ff6f70bee79a0083d644 *tests/testthat/test_summary.R
 eed2bb8141445cf1db4a255f314d7ba0 *tests/testthat/test_titles.R
 a6e4fc757c8404aca8f8ea9c20f0940a *tests/view_reference.Rmd
-ef8a51b50a74ea8c501527ea22d7ea78 *tests/view_reference.html
 9992c0ed185c19aca0f537e1f82a2598 *vignettes/iheatmapr-minimal.Rmd

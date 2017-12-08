@@ -1,8 +1,8 @@
-bf44a2aa71bc44d76ad8db965b9aefe5 *DESCRIPTION
+70d49de3c70638495d3782da2a4f25d8 *DESCRIPTION
 043e320f94b0f75300b3730f71f07dd4 *LICENSE
 2c9066862a5c277340299c21ee0af9bb *NAMESPACE
-43280ae3632b8467a964322de17bb674 *NEWS.md
-10966f0b74ac7cb809f02ffd17d1dae0 *R/AllClasses.R
+9870f638795cc12a1db968215831184c *NEWS.md
+db3d82ceffa3d88c32749d9554af0081 *R/AllClasses.R
 ba6ee4654c4cff64e988bcead587b2a5 *R/AllGenerics.R
 a9cb58d67a08f801fdc95e7e3bf60f6c *R/annotations.R
 69fa7883e847633a9ed8489be826f069 *R/axes.R
@@ -32,7 +32,7 @@ a9cfc71aeb7aa66f1576fa2be6e077f8 *R/main_heatmap.R
 378ab0a79bf046781e78042747f95b70 *data/measles.rda
 3e29fe8b7aeeedd4c269f37abc981afc *inst/CITATION
 9992c0ed185c19aca0f537e1f82a2598 *inst/doc/iheatmapr-minimal.Rmd
-4dc7f0dec2cd876201fd6410e5840dcf *inst/doc/iheatmapr-minimal.html
+7706e01992ba9d8573f59067ddb3334f *inst/doc/iheatmapr-minimal.html
 dbd046e9c97721139166f9dc4bbfed0d *inst/htmlwidgets/iheatmapr.js
 ffcc3520e37d4fc2a1c2e89b0de3f67a *inst/htmlwidgets/iheatmapr.yaml
 b00254ac7ddba335b1d581f7a5b6b74e *inst/htmlwidgets/lib/plotlyjs/LICENSE.txt

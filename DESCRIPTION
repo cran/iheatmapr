@@ -1,39 +1,43 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.4.2
-Authors@R: c(person("Alicia", "Schep", email = "aschep@gmail.com",
-                  role = c("aut", "cre")),
-              person("Sarah","Kummerfeld", email = "kummerfeld.sarah@gene.com",
-                  role = c("aut")),
-              person("Genentech", role = "cph"),
-              person("Andee","Kaplan", role = "rev",
+Version: 0.4.3
+Authors@R: c(person("Alicia", "Schep",
+                  email = "aschep@gmail.com",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "orcid.org/0000-0002-3915-0618")),
+             person("Sarah","Kummerfeld",
+                  email = "kummerfeld.sarah@gene.com",
+                  role = c("aut"),
+                  comment = c(ORCID = "orcid.org/0000-0002-0089-2358")),
+             person("Genentech", role = "cph"),
+             person("Andee","Kaplan", role = "rev",
                   comment = "Reviewer for rOpensci review process https://github.com/ropensci/onboarding/issues/107"),
-              person("Carl","Ganz", role = "rev",
+             person("Carl","Ganz", role = "rev",
                   comment = "Reviewer for rOpensci review process https://github.com/ropensci/onboarding/issues/107"),    
-              person("Alex", "Johnson", role = "ctb",
+             person("Alex", "Johnson", role = "ctb",
                   comment = "plotly.js library"),
-              person("Étienne ", "Tétreault-Pinard", role = "ctb",
+             person("Étienne ", "Tétreault-Pinard", role = "ctb",
                   comment = "plotly.js library"),
-              person("Mikola", "Lysenko", role = "ctb",
+             person("Mikola", "Lysenko", role = "ctb",
                   comment = "plotly.js library"),  
-              person("Ricky", "Reusser", role = "ctb",
+             person("Ricky", "Reusser", role = "ctb",
                   comment = "plotly.js library"),   
-              person("Robert", "Monfera", role = "ctb",
+             person("Robert", "Monfera", role = "ctb",
                   comment = "plotly.js library"),    
-              person("Nicolas", "Riesco", role = "ctb",
+             person("Nicolas", "Riesco", role = "ctb",
                   comment = "plotly.js library"),  
-              person("Miklós", "Tusz", role = "ctb",
+             person("Miklós", "Tusz", role = "ctb",
                   comment = "plotly.js library"),    
-              person("Chelsea", "Douglas", role = "ctb",
+             person("Chelsea", "Douglas", role = "ctb",
                   comment = "plotly.js library"), 
-              person("Ben", "Postlethwaite", role = "ctb",
+             person("Ben", "Postlethwaite", role = "ctb",
                   comment = "plotly.js library"),   
-              person("Chris", "Parmer", role = "ctb",
+             person("Chris", "Parmer", role = "ctb",
                   comment = "plotly.js library"),    
-              person("Alex", "Vados", role = "ctb",
+             person("Alex", "Vados", role = "ctb",
                   comment = "plotly.js library"), 
-              person("Plotly", role = "cph",
+             person("Plotly", role = "cph",
                   comment = "plotly.js library"))
 Description: Make complex, interactive heatmaps. 'iheatmapr' includes a modular 
     system for iteratively building up complex heatmaps, as well as the 
@@ -57,10 +61,14 @@ Collate: 'AllClasses.R' 'AllGenerics.R' 'annotations.R' 'axes.R'
         'dendogram.R' 'generic_subplots.R' 'groups.R' 'main_heatmap.R'
         'iheatmap.R' 'iheatmapr.R' 'layout.R' 'shiny.R' 'shiny_test.R'
         'signal.R' 'subplot.R' 'summary.R' 'to_widget.R' 'utils.R'
+X-schema.org-applicationCategory: Visualization
+X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
+        data-visualization, htmlwidgets
+X-schema.org-isPartOf: https://ropensci.org
 NeedsCompilation: no
-Packaged: 2017-11-12 01:41:26 UTC; alicia
-Author: Alicia Schep [aut, cre],
-  Sarah Kummerfeld [aut],
+Packaged: 2017-12-08 03:48:15 UTC; alicia
+Author: Alicia Schep [aut, cre] (orcid.org/0000-0002-3915-0618),
+  Sarah Kummerfeld [aut] (orcid.org/0000-0002-0089-2358),
   Genentech [cph],
   Andee Kaplan [rev] (Reviewer for rOpensci review process
     https://github.com/ropensci/onboarding/issues/107),
@@ -80,4 +88,4 @@ Author: Alicia Schep [aut, cre],
   Plotly [cph] (plotly.js library)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-11-12 04:19:05 UTC
+Date/Publication: 2017-12-08 17:46:17 UTC

@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.4.3
+Version: 0.4.8
 Authors@R: c(person("Alicia", "Schep",
                   email = "aschep@gmail.com",
                   role = c("aut", "cre"),
@@ -49,8 +49,7 @@ Imports: methods, plyr, utils, magrittr, S4Vectors, stats, ggdendro,
         knitr, tools
 Suggests: htmltools, datasets, shiny, testthat, rmarkdown, reshape2,
         roxygen2, covr, webshot
-biocViews: Visualization
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 VignetteBuilder: knitr
 URL: https://github.com/ropensci/iheatmapr
 BugReports: https://github.com/ropensci/iheatmapr/issues
@@ -66,9 +65,9 @@ X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
         data-visualization, htmlwidgets
 X-schema.org-isPartOf: https://ropensci.org
 NeedsCompilation: no
-Packaged: 2017-12-08 03:48:15 UTC; alicia
-Author: Alicia Schep [aut, cre] (orcid.org/0000-0002-3915-0618),
-  Sarah Kummerfeld [aut] (orcid.org/0000-0002-0089-2358),
+Packaged: 2019-03-15 04:14:57 UTC; alicia
+Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
+  Sarah Kummerfeld [aut] (<https://orcid.org/0000-0002-0089-2358>),
   Genentech [cph],
   Andee Kaplan [rev] (Reviewer for rOpensci review process
     https://github.com/ropensci/onboarding/issues/107),
@@ -88,4 +87,4 @@ Author: Alicia Schep [aut, cre] (orcid.org/0000-0002-3915-0618),
   Plotly [cph] (plotly.js library)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-12-08 17:46:17 UTC
+Date/Publication: 2019-03-16 19:50:07 UTC

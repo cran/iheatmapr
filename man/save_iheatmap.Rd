@@ -13,18 +13,24 @@
 
 \item{filename}{name of file}
 
-\item{...}{additional arguments to \code{\link[htmlwidgets]{saveWidget}} for 
+\item{...}{additional arguments to \code{\link[htmlwidgets]{saveWidget}} for
 saving as html or \code{\link[webshot]{webshot}} for saving as pdf/png/jpeg}
 }
 \description{
-save an \code{link{Iheatmap-class}} object, either as standalone HTML or as static 
+save an \code{link{Iheatmap-class}} object, either as standalone HTML or as static
 pdf/png/jpeg
+}
+\details{
+Note that this function requires the webshot package. If deploying
+a shiny app that calls this function in shinyapps.io, loading the webshot
+library and calling \code{webshot::install_phantomjs()} is needed for the the save
+functionality to work.
 }
 \examples{
 mat <- matrix(rnorm(24), nrow = 6)
 hm <- iheatmap(mat)
 \dontrun{
-save_iheatmap(hm)
+save_iheatmap(hm, "example_iheatmap.png")
 }
 }
 \author{

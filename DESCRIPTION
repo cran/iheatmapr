@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.4.8
+Version: 0.4.12
 Authors@R: c(person("Alicia", "Schep",
                   email = "aschep@gmail.com",
                   role = c("aut", "cre"),
@@ -38,7 +38,9 @@ Authors@R: c(person("Alicia", "Schep",
              person("Alex", "Vados", role = "ctb",
                   comment = "plotly.js library"), 
              person("Plotly", role = "cph",
-                  comment = "plotly.js library"))
+                  comment = "plotly.js library"), 
+             person("Frederick", "Boehm", role = "ctb",
+                  comment = "colorbars & main_heatmap"))
 Description: Make complex, interactive heatmaps. 'iheatmapr' includes a modular 
     system for iteratively building up complex heatmaps, as well as the 
     iheatmap() function for making relatively standard heatmaps.
@@ -49,9 +51,10 @@ Imports: methods, plyr, utils, magrittr, S4Vectors, stats, ggdendro,
         knitr, tools
 Suggests: htmltools, datasets, shiny, testthat, rmarkdown, reshape2,
         roxygen2, covr, webshot
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
-URL: https://github.com/ropensci/iheatmapr
+URL: https://docs.ropensci.org/iheatmapr (website)
+        https://github.com/ropensci/iheatmapr
 BugReports: https://github.com/ropensci/iheatmapr/issues
 Encoding: UTF-8
 Collate: 'AllClasses.R' 'AllGenerics.R' 'annotations.R' 'axes.R'
@@ -65,7 +68,7 @@ X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
         data-visualization, htmlwidgets
 X-schema.org-isPartOf: https://ropensci.org
 NeedsCompilation: no
-Packaged: 2019-03-15 04:14:57 UTC; alicia
+Packaged: 2019-11-23 02:47:20 UTC; alicia
 Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Sarah Kummerfeld [aut] (<https://orcid.org/0000-0002-0089-2358>),
   Genentech [cph],
@@ -84,7 +87,8 @@ Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Ben Postlethwaite [ctb] (plotly.js library),
   Chris Parmer [ctb] (plotly.js library),
   Alex Vados [ctb] (plotly.js library),
-  Plotly [cph] (plotly.js library)
+  Plotly [cph] (plotly.js library),
+  Frederick Boehm [ctb] (colorbars & main_heatmap)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-03-16 19:50:07 UTC
+Date/Publication: 2019-11-23 09:30:02 UTC

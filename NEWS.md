@@ -1,3 +1,19 @@
+# iheatmapr 0.4.12 (CRAN Release)
+
+* Adjust tests to be compatible with newer version of scales package.
+
+# iheatmapr 0.4.11
+
+* Fix issue for some subplots where an NA value prevents any plotting.
+
+# iheatmapr 0.4.10
+
+* Exports to_plotly_list and adds new to_plotly_json to make it easier to convert to plotly spec
+
+# iheatmapr 0.4.9
+
+* Adds an option to main_heatmap to show colorbar or not, by [@fboehm](https://github.com/fboehm)
+
 # iheatmapr 0.4.8
 
 * Update to fix error in tests due to change in R-devel random sample

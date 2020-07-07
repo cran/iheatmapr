@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.4.12
+Version: 0.5.0
 Authors@R: c(person("Alicia", "Schep",
                   email = "aschep@gmail.com",
                   role = c("aut", "cre"),
@@ -45,13 +45,12 @@ Description: Make complex, interactive heatmaps. 'iheatmapr' includes a modular
     system for iteratively building up complex heatmaps, as well as the 
     iheatmap() function for making relatively standard heatmaps.
 License: MIT + file LICENSE
-Depends: R (>= 3.2.0)
-Imports: methods, plyr, utils, magrittr, S4Vectors, stats, ggdendro,
-        fastcluster, RColorBrewer, htmlwidgets, jsonlite, scales,
-        knitr, tools
+Depends: R (>= 3.5.0)
+Imports: methods, utils, magrittr, stats, ggdendro, fastcluster,
+        RColorBrewer, htmlwidgets, jsonlite, scales, knitr, tools
 Suggests: htmltools, datasets, shiny, testthat, rmarkdown, reshape2,
         roxygen2, covr, webshot
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 URL: https://docs.ropensci.org/iheatmapr (website)
         https://github.com/ropensci/iheatmapr
@@ -61,14 +60,15 @@ Collate: 'AllClasses.R' 'AllGenerics.R' 'annotations.R' 'axes.R'
         'axis_labels.R' 'axis_titles.R' 'barplot.R' 'clustering.R'
         'clusters.R' 'colorbars.R' 'colors.R' 'components.R'
         'dendogram.R' 'generic_subplots.R' 'groups.R' 'main_heatmap.R'
-        'iheatmap.R' 'iheatmapr.R' 'layout.R' 'shiny.R' 'shiny_test.R'
-        'signal.R' 'subplot.R' 'summary.R' 'to_widget.R' 'utils.R'
+        'iheatmap.R' 'iheatmapr.R' 'layout.R' 'list_utils.R' 'shiny.R'
+        'shiny_test.R' 'signal.R' 'subplot.R' 'summary.R' 'to_widget.R'
+        'utils.R'
 X-schema.org-applicationCategory: Visualization
 X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
         data-visualization, htmlwidgets
 X-schema.org-isPartOf: https://ropensci.org
 NeedsCompilation: no
-Packaged: 2019-11-23 02:47:20 UTC; alicia
+Packaged: 2020-07-07 02:39:34 UTC; aliciaschep
 Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Sarah Kummerfeld [aut] (<https://orcid.org/0000-0002-0089-2358>),
   Genentech [cph],
@@ -91,4 +91,4 @@ Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Frederick Boehm [ctb] (colorbars & main_heatmap)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-11-23 09:30:02 UTC
+Date/Publication: 2020-07-07 04:50:05 UTC

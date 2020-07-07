@@ -4,16 +4,21 @@
 \alias{setup_tooltip_options}
 \title{Tooltip Options}
 \usage{
-setup_tooltip_options(row = TRUE, col = TRUE, value = TRUE,
-  prepend_row = "Row: ", prepend_col = "Col: ",
-  prepend_value = "Value: ")
+setup_tooltip_options(
+  row = TRUE,
+  col = TRUE,
+  value = TRUE,
+  prepend_row = "Row: ",
+  prepend_col = "Col: ",
+  prepend_value = "Value: "
+)
 }
 \arguments{
 \item{row}{logical, include row name in tooltip?}
 
 \item{col}{logical, include column name in tooltip?}
 
-\item{value}{logical, includevalue in tooltip?}
+\item{value}{logical, include value in tooltip?}
 
 \item{prepend_row}{text to prepend to row name}
 

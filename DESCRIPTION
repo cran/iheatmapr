@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: c(person("Alicia", "Schep",
                   email = "aschep@gmail.com",
                   role = c("aut", "cre"),
@@ -68,7 +68,7 @@ X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
         data-visualization, htmlwidgets
 X-schema.org-isPartOf: https://ropensci.org
 NeedsCompilation: no
-Packaged: 2020-07-07 02:39:34 UTC; aliciaschep
+Packaged: 2020-10-14 03:50:13 UTC; aliciaschep
 Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Sarah Kummerfeld [aut] (<https://orcid.org/0000-0002-0089-2358>),
   Genentech [cph],
@@ -91,4 +91,4 @@ Author: Alicia Schep [aut, cre] (<https://orcid.org/0000-0002-3915-0618>),
   Frederick Boehm [ctb] (colorbars & main_heatmap)
 Maintainer: Alicia Schep <aschep@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-07-07 04:50:05 UTC
+Date/Publication: 2020-10-14 23:50:03 UTC

@@ -66,6 +66,25 @@ to_plotly_json <- function(p){
   as_json
 }
 
+plotlyDependency <- function() {
+  htmltools::htmlDependency(
+    name = "plotly", 
+    version = "2.10.1",
+    package = "iheatmapr",
+    src = file.path("htmlwidgets", "lib", "plotlyjs"),
+    script = "plotly-latest.min.js",
+    all_files = FALSE
+  )
+}
+
+getPlotlySource <- function() {
+  if (!is.null(getOption('iheatmapr.plotly.source'))) {
+    getOption('iheatmapr.plotly.source')
+  } else {
+    plotlyDependency()
+  } 
+}
+
 #' to_widget
 #' 
 #' Function to convert \code{link{Iheatmap-class}} object to widget object
@@ -98,7 +117,8 @@ setMethod(to_widget,
                          height = out$layout$height,
                          sizingPolicy = sizingPolicy(browser.fill = TRUE,
                                                      defaultWidth = "100%",
-                                                     defaultHeight = 400))
+                                                     defaultHeight = 400),
+                         dependencies = list(getPlotlySource()))
           })
 
 
@@ -111,12 +131,12 @@ setMethod("show", "Iheatmap",
 #' knit_print.Iheatmap
 #' 
 #' @param x Iheatmap object
-#' @param options knitr options
+#' @param ... Passed to \code{\link[knitr]{knit_print}}.
 #' @keywords internal
 #' @export
 #' @importFrom knitr knit_print
-knit_print.Iheatmap <- function(x, options){
-  knit_print(to_widget(x), options = options)
+knit_print.Iheatmap <- function(x, ...){
+  knit_print(to_widget(x), ...)
 }
 
 

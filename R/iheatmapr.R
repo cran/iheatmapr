@@ -28,8 +28,7 @@
 #' @seealso \code{\link{main_heatmap}}, \code{\link{iheatmap}},
 #' \code{\link{Iheatmap-class}}
 #' @author Alicia Schep
-#' @docType package
-NULL
+"_PACKAGE"
 
 #' measles
 #' 

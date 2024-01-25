@@ -1,7 +1,7 @@
 Package: iheatmapr
 Type: Package
 Title: Interactive, Complex Heatmaps
-Version: 0.7.0
+Version: 0.7.1
 Authors@R: c(person("Alicia", "Schep",
                   email = "aschep@gmail.com",
                   role = c("aut"),
@@ -52,7 +52,7 @@ Imports: methods, utils, magrittr, stats, ggdendro, fastcluster,
         RColorBrewer, htmlwidgets, jsonlite, scales, knitr, tools
 Suggests: htmltools, datasets, shiny, testthat, rmarkdown, reshape2,
         roxygen2, covr, webshot
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 VignetteBuilder: knitr
 URL: https://docs.ropensci.org/iheatmapr/ (website)
         https://github.com/ropensci/iheatmapr
@@ -71,7 +71,7 @@ X-schema.org-keywords: heatmap, plotly, r, interactive-visualizations,
 X-schema.org-isPartOf: https://ropensci.org
 Language: en-US
 NeedsCompilation: no
-Packaged: 2023-08-30 11:27:25 UTC; alan
+Packaged: 2024-01-25 23:30:33 UTC; alan
 Author: Alicia Schep [aut] (<https://orcid.org/0000-0002-3915-0618>),
   Sarah Kummerfeld [aut] (<https://orcid.org/0000-0002-0089-2358>),
   Genentech [cph],
@@ -95,4 +95,4 @@ Author: Alicia Schep [aut] (<https://orcid.org/0000-0002-3915-0618>),
   Alan O'Callaghan [cre]
 Maintainer: Alan O'Callaghan <alan.ocallaghan@outlook.com>
 Repository: CRAN
-Date/Publication: 2023-08-30 17:00:17 UTC
+Date/Publication: 2024-01-25 23:50:02 UTC

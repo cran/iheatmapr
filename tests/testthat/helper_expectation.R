@@ -15,7 +15,7 @@ replace_text <- function(x) {
 
 
 # modified from testhat expect_equal_to_reference
-expect_ihm_equal_to_reference <- function(object, file, ..., info = NULL) {
+expect_ihm_equal_to_reference <- function(object, file, ..., exclude = NULL, info = NULL) {
   
   lab_exp <- paste0("reference from `", file, "`")
     
@@ -29,6 +29,9 @@ expect_ihm_equal_to_reference <- function(object, file, ..., info = NULL) {
     objectsub <- replace_text(object$x[c("data","layout")])
     referencesub <- replace_text(reference$x[c("data","layout")])
     
+    objectsub <- lapply(objectsub, function(x) setdiff(names(x), exclude))
+    referencesub <- lapply(referencesub, function(x) setdiff(names(x), exclude))
+
     comp <- testthat::compare(objectsub, referencesub, tolerance = 0.1, ...)
     expect(
       comp$equal,
@@ -43,7 +46,7 @@ expect_ihm_equal_to_reference <- function(object, file, ..., info = NULL) {
 
 
 expect_iheatmap <- function(test_plot, ref_name, 
-                            orientation = c("horizontal","vertical")){
+                            orientation = c("horizontal","vertical"), ...){
   test_widget <- test_plot %>% to_widget()
   orientation <- match.arg(orientation)
   if (orientation == "horizontal"){
@@ -54,5 +57,5 @@ expect_iheatmap <- function(test_plot, ref_name,
   expect_is(test_widget,"htmlwidget")
   expect_is(test_widget,"iheatmapr")
   expect_ihm_equal_to_reference(test_widget, paste0("reference/",
-                                                    ref_name,".rds"))
+                                                    ref_name,".rds"), ...)
 }

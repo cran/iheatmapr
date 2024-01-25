@@ -2,6 +2,7 @@
 % Please edit documentation in R/iheatmapr.R
 \docType{package}
 \name{iheatmapr}
+\alias{iheatmapr-package}
 \alias{iheatmapr}
 \title{iheatmapr}
 \description{
